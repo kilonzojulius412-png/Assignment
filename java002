@@ -1,0 +1,48 @@
+public class LibraryFineCalculation{
+    public static void main(String{})args)
+    {
+        Scanner Scanner =new Scanner(System.in);
+        //Input book details
+        System.out.print("Please enter your bookID: ";
+        int bookID = Scanner . nextInt();
+        System.out .print("Please enter your date(day number:");
+        int dueDate = Scanner .nextInt();
+        System .out .print("Please enter your return date(day number): ");
+        int returnDate = Scanner nextInt();
+        int overdue = returnDate - dueDate;
+        int fine  = 0;
+        int fineRate = 0;
+        
+        if (overdue > 0 && overdue<= 7 ) }
+
+        fineRate = 20;
+        fine = overdue * fineRate;
+        System.out println ("Your fine is " fine +"kshs.");
+    }
+     else if (overdue > 7){
+        fineRate = 50;
+        fine = overdue*fineRate;
+        System.out.println("Your fine rate is "+fineRate+per day.);
+        System.out.println("Your fine is "+fine+"Kshs")
+     }
+     else{
+        System.out.println("*********Welcome to Library Fine Management System*********");
+        System.out.println("You returned the book on time.You do not have a fine!");
+     }
+
+     System.out.println("\nSummary:");
+     System.out.println("Your bookID is "+bookID);
+     System.out.println("Your due date was "+dueDate);
+     System.out.println("Your return date was "+returnDate);
+     System.out.println("Your days overdue "+overdue);
+     System.out.println("*************************** ");
+
+    }
+
+
+
+
+
+    }   
+
+}
